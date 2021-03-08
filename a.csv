@@ -1,0 +1,28 @@
+departaments;id;Identificador de la tabla departaments
+departaments;name;nombre del departamento
+departaments;code;Identificador de cada uno de los departamentos de Estado Colombiano
+cities;id;Identificador de la tabla cities
+cities;name;nombre de la ciudad
+cities;departamentsId;Identificador de cada uno de los departamentos de Estado Colombian o
+cities;cod;codigo identificador de cada uno de los municipios del Estado colombiano
+cities;latitud;latitud ciudad
+cities;longitud;longitud ciudad
+evaluators;id;Identificador de la tabla evaluators
+evaluators;fecha;fecha evaluaci?n
+evaluators;evaluador;Nombre del evaluador de la iniciativa radicada en la aplicaci?n del perfil de proyectos.
+evaluators;usersId;id enlace con la tabla users
+users;id;Identificador de la tabla users
+users;name;nombre del usuario
+users;email;emal del usuario
+users;password;password, encriptado, del usuario
+users;mustChangePassword;Si se debe cambiar o no la contrase?a
+users;banned;si el usuario se encuentra o no bloqueado
+users;suspended;si el usuario se encuentra o no suspendido
+users;active;si el usuario se encuentra o no activo
+users;perfil_enviado;si el usuario envio o no el perfil, la ultima acci?n para el registro de la iniciativa
+users;fecha_registro;fecha de la finalizaci?n del registro del perfil
+users;radicado_orfeo;n?mero de radicado en la plataforma orfeo
+users;profilesId;enlace con la tabla profiles
+projects;id;Identificador de la tabla projects
+projects;nombre;nombre del proyecto
+projects;cityId;Identificador del municipio donde se desarrollar? el proyecto.
